@@ -1,0 +1,21 @@
+Package: repboxverse
+Type: Package
+Title: Install and load all repbox packages
+Version: 0.1.0
+Author: Sebastian Kranz
+Maintainer: Sebastian Kranz <sebastian.kranz@uni-ulm.de>
+Description: 
+License: The repbox packages are not on CRAN but under r-universe/repboxr and r-universe/skranz
+Remotes: skranz/stringtools
+Depends: 
+  stringtools, restorepoint, 
+  ExtractSciTab, GithubActions,  sourcemodify, pkgFunIndex,
+  repboxUtils, repboxDB, 
+  repboxEvaluate,
+  repboxArt, repboxCodeText, repboxRfun,
+  repboxDeploy, repboxGithub,
+  repboxStata,repboxR,
+  repboxHtml, repboxMap, repboxReg, 
+  repboxRun
+Encoding: UTF-8
+LazyData: true
